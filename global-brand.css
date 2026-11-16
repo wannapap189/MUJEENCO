@@ -1,0 +1,25 @@
+/* Four-language navigation; retain the MUJEEN identity across scripts. */
+.languages{white-space:nowrap;gap:14px}
+.main-nav{gap:23px}
+html[lang="zh-Hant"]{--heading:'Noto Serif TC','PMingLiU','Songti TC',serif;--body:'Noto Sans Thai','Microsoft JhengHei','PingFang TC',sans-serif}
+html[lang="zh-Hant"] .hero h1{font-size:clamp(58px,5.6vw,86px);line-height:1.45}
+html[lang="zh-Hant"] h2{font-size:clamp(35px,3.5vw,52px);line-height:1.5}
+html[lang="zh-Hant"] .hero-intro{font-size:19px;line-height:1.9}
+html[lang^="zh"] .hero h1{letter-spacing:.02em}
+html[lang^="zh"] .value-preview h2{font-size:clamp(30px,3vw,44px);line-height:1.55}
+html[lang^="zh"] .value-page .value-main h1{font-size:clamp(39px,4.2vw,61px);line-height:1.5}
+html[lang^="zh"] .value-page .value-main h2{font-size:clamp(31px,3.3vw,47px);line-height:1.55}
+@media(max-width:1100px){.header-row{gap:22px}.main-nav{gap:14px;font-size:11px}.languages{gap:10px}.brand{width:170px}}
+@media(max-width:760px){
+ .header-row{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px;row-gap:20px;padding-block:22px;min-height:0}
+ .brand{width:145px;grid-column:1;grid-row:1}
+ .languages{grid-column:2;grid-row:1;margin:0;gap:11px;font-size:10px;justify-content:flex-end}
+ .main-nav{grid-column:1/-1;grid-row:2;margin:0;justify-content:space-between;gap:8px;font-size:11px;flex-wrap:wrap;width:100%}
+ html[lang="zh-Hant"] .hero h1{font-size:47px;line-height:1.45}
+ html[lang="zh-Hant"] h2{font-size:32px;line-height:1.5}
+ html[lang="zh-Hant"] .collection-page h1{font-size:36px}
+ html[lang^="zh"] .value-page .value-main h1{font-size:37px}
+ html[lang^="zh"] .value-page .value-main h2{font-size:31px}
+ html[lang^="zh"] .value-preview h2{font-size:30px}
+}
+@media(max-width:370px){.brand{width:128px}.languages{gap:9px}.main-nav{font-size:10px}.header-row{column-gap:8px}}

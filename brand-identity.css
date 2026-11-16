@@ -1,0 +1,10 @@
+/* Give the MUJEEN collection first position; ritual attribution remains distinct. */
+.product-provenance .product-brand{padding:0 0 18px;margin:0 0 18px;border-bottom:1px solid #d8c7b0}
+.product-provenance .product-brand strong{display:block;font-size:18px;line-height:1.65;font-weight:500;color:#462d32}
+.product-provenance .provenance-label{display:block;font-size:10px;line-height:1.8;letter-spacing:.06em;color:#967748;margin-bottom:7px}
+@media(max-width:700px){.product-provenance .product-brand strong{font-size:16px}}
+
+/* The complete brand mark on the light story and worship headers. */
+.top .logo:has(.brand-full-logo){display:block;width:190px;flex:none;line-height:0}
+.top .brand-full-logo{display:block;width:100%;height:auto}
+@media(max-width:760px){.top .logo:has(.brand-full-logo){width:170px}}

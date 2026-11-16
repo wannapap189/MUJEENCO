@@ -1,0 +1,29 @@
+/* Quiet transitions within the existing MUJEEN hero composition. */
+.hero-carousel{margin-bottom:48px}
+.hero-carousel .hero-slide{position:absolute;inset:0;opacity:0;pointer-events:none;transition:opacity 1.2s ease-in-out}
+.hero-carousel .hero-slide.is-active{opacity:1;pointer-events:auto}
+.hero-carousel .hero-slide .immortal{width:88%;top:49%}
+.hero-carousel .hero-slide .kuman{width:92%;top:46%}
+.hero-carousel .hero-carousel-caption{align-items:baseline;min-height:24px}
+.hero-carousel .hero-current-name{text-align:right;letter-spacing:0}
+.hero-controls{position:absolute;left:8%;right:8%;bottom:-46px;display:flex;align-items:center;justify-content:flex-end;gap:16px;color:#d5c09a}
+.hero-controls[hidden]{display:none}
+.hero-selectors{display:flex;gap:8px}
+.hero-select,.hero-toggle{appearance:none;border:0;background:transparent;color:inherit;cursor:pointer;padding:0;min-width:44px;min-height:44px;transition:color .2s}
+.hero-select{display:grid;place-content:center;gap:7px;font-size:10px;line-height:1.2;letter-spacing:.1em;color:#ac9390}
+.hero-select-line{display:block;width:30px;height:1px;background:currentColor;opacity:.45;transition:opacity .3s}
+.hero-select[aria-pressed="true"]{color:#f3ddba}
+.hero-select[aria-pressed="true"] .hero-select-line{opacity:1}
+.hero-select:hover,.hero-toggle:hover{color:#fff8ef}
+.hero-select:disabled{opacity:.35;cursor:default}
+.hero-toggle{display:grid;place-items:center;border-left:1px solid #c4a87a35;padding-left:12px;min-width:48px}
+.hero-toggle svg{width:18px;height:18px;grid-area:1/1}
+.hero-carousel[data-autoplay="paused"] .hero-pause-icon,.hero-carousel:not([data-autoplay="paused"]) .hero-play-icon{display:none}
+.hero-controls button:focus-visible{outline:1px solid #e6c995;outline-offset:2px;border-radius:2px}
+@media(max-width:760px){
+  .hero-carousel{margin-bottom:76px}
+  .hero-carousel .hero-slide .immortal{width:79%;top:48%}
+  .hero-carousel .hero-slide .kuman{width:82%;top:45%}
+  .hero-carousel .hero-controls{left:4%;right:4%;bottom:-55px;justify-content:center}
+}
+@media(prefers-reduced-motion:reduce){.hero-carousel .hero-slide{transition:none}}

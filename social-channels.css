@@ -1,0 +1,15 @@
+.brand-social{--social-ink:#38272c;--social-muted:#817161;--social-line:#cdbb9f66;color:var(--social-ink);font-family:'Noto Sans Thai','Leelawadee UI',sans-serif;padding-top:30px;padding-bottom:35px}
+.footer .brand-social{--social-ink:#e2d1cb;--social-muted:#c0a88d;--social-line:#ba9c7438;border-top:1px solid var(--social-line)}
+.brand-social .brand-social-heading{font-size:14px;font-weight:400;line-height:1.8;margin:0 0 18px;color:var(--social-ink)}
+.social-channels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.brand-social .social-channel{display:flex;align-items:center;gap:18px;min-width:0;min-height:84px;border:1px solid var(--social-line);padding:17px 22px;color:var(--social-ink);text-decoration:none}
+.social-channel-icon{display:flex;align-items:center;justify-content:center;flex:0 0 44px;color:var(--social-muted)}
+.social-channel-icon svg{display:block;width:32px;height:28px}
+.social-redbook-mark{font-family:'Noto Sans SC','Microsoft YaHei',sans-serif;font-size:14px;font-weight:600;white-space:nowrap;letter-spacing:-.04em}
+.social-channel-copy{display:flex;flex-direction:column;gap:5px;min-width:0}
+.social-channel-name{font-size:14px;line-height:1.6;font-weight:400}
+.social-channel-status{font-size:11px;line-height:1.7;color:var(--social-muted)}
+.social-channel-arrow{margin-left:auto;color:var(--social-muted)}
+.brand-social a.social-channel:hover{border-color:var(--social-muted)}
+.brand-social a.social-channel:focus-visible{outline:2px solid var(--social-muted);outline-offset:4px}
+@media(max-width:700px){.brand-social{padding-top:25px;padding-bottom:28px}.social-channels{grid-template-columns:1fr;gap:10px}.brand-social .social-channel{min-height:72px;padding:13px 18px}.social-channel-copy{flex:1;flex-direction:row;align-items:center;justify-content:space-between;gap:12px}.social-channel-status{flex-shrink:0}.social-channel-name{font-size:13px}}

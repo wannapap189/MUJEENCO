@@ -1,0 +1,123 @@
+/* Brand media and collection-specific meaning share the existing atelier palette. */
+.brand-film-feature{padding:88px 0;background:var(--paper);border-top:1px solid var(--line)}
+.brand-film-layout{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.55fr);align-items:center;gap:clamp(40px,5.5vw,88px)}
+.brand-film-copy{padding-bottom:22px;min-width:0}
+.brand-film-copy .eyebrow{font-size:10px;letter-spacing:.2em;margin-bottom:26px}
+.brand-film-copy h2{font-size:clamp(35px,3.4vw,52px);line-height:1.5;margin:0 0 22px}
+.brand-film-copy h2 span{display:block}
+.brand-film-copy>p:not(.eyebrow){font-size:15px;line-height:2;color:var(--muted);max-width:38ch}
+.brand-film-copy .link-arrow{font-size:13px;margin-top:28px;gap:20px}
+.brand-film-player{min-width:0;margin:0}
+.brand-film-player video{display:block;width:100%;aspect-ratio:16/9;background:var(--wine-deep);object-fit:contain}
+.brand-film-player figcaption{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-top:16px;color:var(--muted);font-size:10px;letter-spacing:.07em}
+.brand-film-player figcaption i{color:var(--gold);font-style:normal;margin:0 10px}
+.brand-film-feature:target{scroll-margin-top:24px}
+
+
+/* Keep the approved wine-and-gold three-deity composition as the collection opener. */
+.collection-page .section.collection-group{padding:0}
+.collection-showcase{--collection-gold:#dec394;--collection-light:#fff7eb;background:radial-gradient(ellipse at 50% 43%,#58323d 0,#35202a 50%,#24171f 90%);color:var(--collection-light);padding:56px 0 34px}
+.collection-heading{text-align:center}
+.collection-wordmark{display:block;width:210px;height:auto;margin:0 auto 24px}
+.collection-heading .eyebrow{font-size:10px;letter-spacing:.24em;color:var(--collection-gold);margin:0 0 14px}
+.collection-page .collection-heading h1,.collection-heading h2{font-family:var(--heading);font-size:clamp(38px,4vw,54px);font-weight:400;line-height:1.55;letter-spacing:-.025em;margin:0}
+.collection-subtitle{font-size:23px;line-height:1.6;color:#f4dfc1;margin:4px 0 0}
+.collection-context{font-size:14px;line-height:1.9;color:#cdbbbd;margin:19px auto 0;max-width:76ch}
+.collection-pieces{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:32px}
+.collection-piece{display:block;position:relative;text-align:center;padding:0 24px 30px;min-width:0;color:inherit}
+.collection-piece+.collection-piece:before{content:'';position:absolute;left:0;top:60px;bottom:35px;width:1px;background:linear-gradient(transparent,#c4a27640 30%,#c4a27640 75%,transparent)}
+.collection-art{height:355px;position:relative;display:flex;align-items:flex-end;justify-content:center;isolation:isolate}
+.collection-art:before{content:'';position:absolute;width:220px;height:220px;border:1px solid #d8b87d26;border-radius:50%;top:83px;z-index:-1;transition:border-color .25s}
+.collection-art:after{content:'';position:absolute;bottom:7px;width:190px;height:20px;background:#110810aa;filter:blur(16px);border-radius:50%;z-index:-1}
+.collection-art img{display:block;height:375px;width:auto;max-width:none;mask-size:100% 100%;-webkit-mask-size:100% 100%;mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat}
+.collection-piece--gambling-immortal .collection-art img{height:335px;margin-bottom:7px}
+.collection-piece--kuman-fa-cai .collection-art img{height:341px;margin-bottom:5px}
+.collection-number{position:absolute;left:3px;top:25px;font:italic 19px Georgia,serif;color:#c8a47780}
+.collection-english{font:9px/1.6 Arial,sans-serif;letter-spacing:2px;color:#cbb99f;margin:18px 0 8px}
+.collection-piece-copy h2,.collection-piece-copy h3{font-family:var(--heading);font-weight:400;font-size:clamp(26px,2.5vw,34px);line-height:1.6;margin:0;letter-spacing:-.025em}
+.collection-qualities{color:#f1c67f;font-size:14px;font-weight:500;line-height:1.85;margin:9px 0 12px}
+.collection-description{font-size:14px;color:#d3c1c3;line-height:1.9;max-width:36ch;min-height:3.8em;margin:0 auto}
+.collection-explore{display:inline-flex;align-items:center;gap:24px;margin-top:22px;padding-bottom:5px;border-bottom:1px solid #dec39450;font-size:12px;color:#e7cda7}
+.collection-explore>span{font-size:18px;transition:transform .2s}
+.collection-piece:hover .collection-art:before{border-color:#d8b87d66}
+.collection-piece:hover .collection-explore>span{transform:translate(2px,-2px)}
+.collection-piece:focus-visible{outline:2px solid #dec394;outline-offset:5px}
+.collection-meaning{display:grid;grid-template-columns:1fr 1.25fr;gap:48px;align-items:center;margin-top:25px;padding:32px 22px;border-top:1px solid #d2b17e4a;border-bottom:1px solid #d2b17e33;scroll-margin-top:30px}
+.collection-meaning .eyebrow{font-size:10px;letter-spacing:.12em;color:var(--collection-gold);margin:0 0 12px}
+.collection-meaning h2{font-size:clamp(23px,2vw,29px);line-height:1.65;margin:0}
+.collection-rhythm{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;color:#f5d59b;font-family:var(--heading);font-size:clamp(23px,2.1vw,30px);line-height:1.7;margin:0 0 12px}
+.collection-rhythm span{white-space:nowrap}
+.collection-rhythm i{font-style:normal;color:#a47c60;font-size:16px}
+.collection-meaning-copy>p:not(.collection-rhythm){font-size:14px;line-height:1.95;color:#cdbbbd;max-width:62ch}
+.collection-signature{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 22px 0}
+.collection-signature p{font-size:10px;line-height:1.9;color:#bda9ad;margin:0}
+.collection-signature p+p{margin-top:5px}
+.collection-signature a{flex-shrink:0;font-size:12px;color:#e7cda7;border-bottom:1px solid #dec39450;padding-bottom:5px}
+.collection-signature a span{margin-left:16px}
+.collection-group .work-details{margin-top:0}
+.collection-group .work-detail:target{margin:64px 0 88px}
+.collection-index-heading{padding:70px 0}
+.story-chapters{display:flex;flex-wrap:wrap;gap:12px 30px;margin-top:34px;padding-top:24px;border-top:1px solid #d9cbb8}
+.story-chapters a{font-size:13px;text-decoration:none;color:#715b45;border-bottom:1px solid transparent;padding:6px 0}
+.story-chapters a:hover{border-bottom-color:#a67c3e}
+.story-chapters a:focus-visible{outline:2px solid #a67c3e;outline-offset:5px}
+html[lang=en] .collection-piece-copy h2{font-size:31px;line-height:1.35;min-height:2.7em}
+html[lang=en] .collection-page .collection-heading h1{font-size:clamp(38px,4vw,56px)}
+@media(max-width:1100px) and (min-width:761px){
+ .collection-piece{padding-inline:16px}
+ .collection-art{height:310px}
+ .collection-art img{height:322px}
+ .collection-piece--gambling-immortal .collection-art img{height:290px}
+ .collection-piece--kuman-fa-cai .collection-art img{height:294px}
+ .collection-art:before{width:190px;height:190px;top:75px}
+ .collection-qualities{font-size:12px}
+ .collection-description{font-size:13px;min-height:5.7em}
+ .collection-meaning{gap:28px}
+ .collection-signature{flex-wrap:wrap}
+}
+@media(max-width:1000px){
+ .brand-film-layout{grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);gap:32px}
+ .brand-film-copy h2{font-size:37px}
+}
+@media(max-width:760px){
+ .brand-film-feature{padding:56px 0}
+ .brand-film-layout{grid-template-columns:1fr;gap:28px}
+ .brand-film-copy{padding:0}
+ .brand-film-copy .eyebrow{margin-bottom:18px}
+ .brand-film-copy h2{font-size:38px;line-height:1.5;margin-bottom:18px}
+ .brand-film-copy>p:not(.eyebrow){font-size:14px;max-width:48ch}
+ .brand-film-copy .link-arrow{margin-top:20px}
+ .brand-film-player figcaption{font-size:9px;gap:8px;margin-top:13px}
+ .collection-showcase{padding:42px 0 30px}
+ .collection-wordmark{width:176px;margin-bottom:24px}
+ .collection-heading .eyebrow{font-size:9px;margin-bottom:14px}
+ .collection-page .collection-heading h1,.collection-heading h2{font-size:31px;line-height:1.65}
+ .collection-subtitle{font-size:17px;margin-top:8px}
+ .collection-context{font-size:12px;line-height:1.95;margin-top:17px}
+ .collection-pieces{grid-template-columns:1fr;margin-top:30px}
+ .collection-piece{padding:0 0 30px;max-width:430px;width:100%;margin:auto}
+ .collection-piece+.collection-piece{border-top:1px solid #c4a27633;padding-top:25px}
+ .collection-piece+.collection-piece:before{display:none}
+ .collection-art{height:340px}
+ .collection-art img{height:365px}
+ .collection-piece--gambling-immortal .collection-art img{height:323px}
+ .collection-piece--kuman-fa-cai .collection-art img{height:330px}
+ .collection-art:before{width:205px;height:205px;top:74px}
+ .collection-piece-copy h2,.collection-piece-copy h3{font-size:30px}
+ .collection-qualities{font-size:13px}
+ .collection-description{font-size:14px;min-height:0}
+ .collection-explore{margin-top:15px;min-height:40px}
+ .collection-meaning{grid-template-columns:1fr;gap:23px;margin-top:0;padding:28px 0}
+ .collection-meaning h2{font-size:23px}
+ .collection-rhythm{font-size:23px;gap:8px 10px;margin-bottom:14px}
+ .collection-rhythm i{font-size:14px}
+ .collection-meaning-copy>p:not(.collection-rhythm){font-size:13px}
+ .collection-signature{display:block;padding:22px 0 0}
+ .collection-signature a{display:inline-block;margin-top:20px}
+ .collection-group .work-detail:target{margin:40px 0 58px}
+ .story-chapters{gap:8px 20px;margin-top:26px;padding-top:18px}
+ .story-chapters a{font-size:12px;min-height:38px}
+ html[lang=en] .collection-piece-copy h2{min-height:0;font-size:32px}
+ html[lang=en] .collection-page .collection-heading h1{font-size:38px;line-height:1.25}
+}
+@media(prefers-reduced-motion:reduce){.collection-explore>span,.collection-art:before{transition:none}}

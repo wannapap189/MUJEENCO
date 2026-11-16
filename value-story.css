@@ -1,0 +1,125 @@
+/* MUJEEN: understand the teacher's knowledge and preparation before choosing. */
+.value-title-phrase{display:inline-block;white-space:nowrap}
+.value-preview{padding:88px 0;background:#f4eee6;border-block:1px solid #dfd1c1;color:#372a2e}
+.value-preview-inner{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:center}
+.value-preview h2{font:400 clamp(30px,3vw,46px)/1.55 var(--heading,'Fahkwang',serif);letter-spacing:-.025em}
+.value-preview-copy>p{font-size:15px;line-height:2;color:#746165;max-width:52ch}
+.value-preview-copy ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px 19px;padding:0;margin:23px 0 0;color:#80603d;font-size:11px}
+.value-preview-copy li{padding-block:7px;border-bottom:1px solid #cdbb9f}
+.value-text-link{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #a88858;padding:8px 0;color:inherit;font-size:13px;line-height:1.8;text-decoration:none;margin-top:20px}
+.value-text-link span{flex:none;font:19px/1 Arial,sans-serif}
+.value-product{margin-top:28px;border-block:1px solid #d8c7b0;padding:22px 0 21px}
+.value-product-label{font-size:13px;font-weight:500;color:#624131;margin:0 0 10px}
+.value-product-body{font-size:13px;line-height:1.95;color:#77656a;margin:0}
+.value-product .value-text-link{font-size:11px;margin-top:12px}
+
+
+.value-page{--value-soft:#f3eee6;--value-muted:#796b6a}
+.value-page .masthead{background:#23151c}
+.value-main h1{font-size:clamp(38px,4.2vw,63px);line-height:1.5;letter-spacing:-.035em}
+.value-main h2{font-size:clamp(32px,3.3vw,49px);line-height:1.5;letter-spacing:-.03em}
+.value-main h3{font-size:22px;line-height:1.6}
+.value-main p{line-height:1.95}
+.value-main section[id]{scroll-margin-top:30px}
+.value-hero{padding:68px 0 66px;background:#f8f4ed}
+.value-hero-layout{display:grid;grid-template-columns:1fr 1fr;gap:76px;align-items:center}
+.value-hero-copy{padding-block:28px}
+.value-intro{font-size:17px;max-width:43ch;color:var(--value-muted);margin-top:29px}
+.value-hero-photo{position:relative;min-width:0;aspect-ratio:1.08;overflow:hidden}
+.value-hero-photo img{width:100%;height:100%;object-fit:cover;object-position:21% 50%}
+.value-hero-photo figcaption{position:absolute;inset:auto 0 0;padding:32px 22px 19px;background:linear-gradient(transparent,#21151bd9);color:#fffaef;font-size:11px;line-height:1.8}
+.value-chapters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid #e1d4c5;padding-block:21px;gap:12px}
+.value-chapters a{display:flex;gap:14px;align-items:center;font-size:12px}
+.value-chapters a>span{font:italic 17px Georgia,serif;color:#a5895f}
+.value-life{padding-block:95px 70px}
+.value-life-layout{display:grid;grid-template-columns:1fr 1.1fr;gap:105px}
+.value-life-layout>div>p{max-width:58ch;color:var(--value-muted);font-size:16px}
+.value-life-layout .value-life-end{margin-top:21px;color:#775335;font-size:16px}
+.value-knowledge{padding:0 0 90px}
+.value-knowledge-inner{border-top:1px solid #d9c9b5;padding-top:35px;display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:start}
+.value-knowledge h3{font-size:26px;line-height:1.6}
+.value-knowledge p{font-size:16px;color:#746065;line-height:2;max-width:62ch}
+.value-facets{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:42px;margin-top:36px}
+.value-facets article{border-top:1px solid #d9c9b5;padding-top:21px}
+.value-facets h4{font:400 21px/1.6 var(--heading);color:#775335;margin-bottom:12px}
+.value-facets p{font-size:13px;line-height:1.95;max-width:43ch}
+.value-making{padding:88px 0 74px;background:#301c25;color:#fff6e9}
+.value-making-layout{display:grid;grid-template-columns:1fr 1.1fr;gap:105px;align-items:start}
+.value-making-intro{font-size:15px;max-width:44ch;color:#d1bec2;margin-top:25px}
+.value-small-links{display:flex;flex-direction:column;gap:13px;align-items:flex-start;margin-top:25px;color:#dfc296;font-size:12px}
+.value-small-links a{border-bottom:1px solid #d7b68155;padding-bottom:4px}
+.value-steps{list-style:none;margin:0;padding:0}
+.value-steps li{display:grid;grid-template-columns:28px 1fr;gap:25px;padding:28px 0;border-top:1px solid #b899713b}
+.value-steps li:first-child{padding-top:18px}
+.value-steps li>span{font:italic 20px Georgia,serif;color:#b99b73;padding-top:7px}
+.value-steps h3{font-size:22px}
+.value-steps p{font-size:14px;color:#c9b6bb;margin-top:10px;max-width:51ch}
+.value-material{display:grid;grid-template-columns:minmax(220px,300px) minmax(0,1fr);gap:clamp(28px,4vw,60px);align-items:center;border-top:1px solid #b899713b;padding-top:38px;margin-top:38px}
+.value-material figure{margin:0;min-width:0}.value-material img{display:block;width:100%;height:auto;aspect-ratio:1122/1402;object-fit:contain;border:1px solid #b899713b}
+.value-material figcaption{font-size:10px;color:#bca7ae;line-height:1.7;margin-top:10px}
+.value-material>p{font:400 22px/1.85 var(--heading);color:#ecd7b4;max-width:44ch}
+.value-roots{display:grid;grid-template-columns:.65fr 1.35fr;gap:90px;align-items:center;padding-block:105px}
+.value-root-mark{font:400 clamp(80px,9vw,145px)/1.25 'Noto Serif SC',serif;color:#b99a6b;display:flex;gap:16px;justify-content:center}
+.value-roots-copy>p:not(.eyebrow){font-size:15px;max-width:64ch;color:var(--value-muted);margin-top:22px}
+
+
+
+
+.value-at-home{padding-block:85px;background:var(--value-soft)}
+.value-at-home-layout{display:grid;grid-template-columns:1fr 1fr;gap:76px;align-items:center}
+/* Frame the original photograph around the altar and standing worshippers. */
+.temple-altar-frame{position:relative;overflow:hidden;aspect-ratio:93/52;background:#e5ded2}
+.value-at-home .temple-altar-frame>img{position:absolute;display:block;width:168.27957%;max-width:none;height:auto;aspect-ratio:auto;left:-33.333333%;top:-7.692308%;object-fit:fill}
+.value-at-home figcaption{font-size:10px;line-height:1.7;color:#8d7a68;margin-top:12px}
+.value-at-home figcaption a{display:block;margin-top:3px;text-underline-offset:3px}
+.value-at-home-layout>div>p:not(.eyebrow){font-size:14px;color:var(--value-muted);margin-top:22px;max-width:55ch}
+.value-heirloom{padding-block:105px;text-align:center}
+.value-heirloom>p:not(.eyebrow){max-width:64ch;margin:26px auto 0;font-size:16px;color:var(--value-muted)}
+.value-heirloom .value-heirloom-end{font-family:var(--heading);font-size:21px;color:#8d6a3f;max-width:62ch}
+.value-begin{padding-block:85px 48px;background:#301c25;color:#fff5e4}
+.value-begin-layout{display:grid;grid-template-columns:1fr 1fr;gap:100px}
+.value-begin-intro{font-size:15px;color:#cab5bb;max-width:43ch;margin-top:23px}
+.value-offer{border-left:1px solid #d0ac713f;padding-left:60px}
+
+
+
+
+
+
+.value-included{font-size:13px;color:#d8c3c7;border-top:1px solid #d0ac713f;padding-top:21px;margin-top:23px;max-width:56ch}
+.value-contact{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;background:#dfc397;color:#32212a;padding:16px 24px;font-size:14px;line-height:1.7;margin-top:26px;min-height:54px}
+.value-contact:hover{background:#ecd6b0}
+.value-contact>span{font-size:21px}
+.value-line{font-size:10px;color:#bda3ad;margin-top:12px}
+.value-reservation-note{font-size:12px!important;line-height:1.85!important;color:#86653e!important;margin-top:22px;padding-top:16px;border-top:1px solid #d7c5ab}
+.value-reservation-note strong{display:block;color:#624131;font-size:13px;font-weight:500;margin-bottom:6px}
+.value-reservation{border-top:1px solid #d0ac713f;padding-top:23px;margin-top:27px;max-width:47ch}
+.value-reservation .value-reservation-title{font-size:17px;color:#dfc397;margin-bottom:9px}
+.value-reservation>p:last-child{font-size:13px;color:#cab5bb;line-height:1.95}
+.value-choose-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;margin-top:65px}
+.value-choose-links a{display:flex;justify-content:space-between;gap:15px;border-top:1px solid #d0ac7147;padding:20px 0;color:#dec6a3;font-size:14px}
+.value-page:lang(en) .value-main h1{font-size:clamp(45px,4.4vw,68px);line-height:1.14;letter-spacing:-.02em}
+.value-page:lang(en) .value-main h2{font-size:clamp(41px,3.8vw,59px);line-height:1.18}
+.value-page:lang(en) .value-main h3{font-size:29px;line-height:1.25}
+.value-page:lang(zh) .value-main h1{font-size:clamp(39px,4.2vw,61px);line-height:1.5}
+.value-page:lang(zh) .value-main h2{font-size:clamp(31px,3.3vw,47px);line-height:1.55}
+@media(max-width:1100px){.value-hero-layout,.value-preview-inner,.value-life-layout,.value-making-layout,.value-knowledge-inner,.value-at-home-layout,.value-begin-layout{gap:44px}.value-roots{gap:40px}.value-offer{padding-left:35px}.value-chapters a{font-size:11px;gap:9px}.value-main h1{font-size:42px}.value-hero-photo{aspect-ratio:.83}}
+@media(max-width:760px){
+ .value-facets{grid-template-columns:1fr;gap:24px;margin-top:27px}.value-facets h4{font-size:20px;margin-bottom:8px}.value-knowledge .value-facets p{font-size:13px}
+ .value-preview{padding:56px 0}.value-preview-inner{grid-template-columns:1fr;gap:25px}.value-preview h2{font-size:31px}.value-preview-copy>p{font-size:14px}.value-preview-copy ul{gap:8px 15px;font-size:10px}.value-preview--story .shell{padding-inline:20px}
+ .value-hero{padding:40px 0 36px}.value-hero-layout{grid-template-columns:1fr;gap:30px}.value-hero-copy{padding:0}.value-main h1{font-size:37px;line-height:1.5}.value-main h2{font-size:31px}.value-intro{font-size:15px;margin-top:22px}.value-hero-photo{aspect-ratio:1.18}.value-hero-photo img{object-position:20% 50%}.value-hero-photo figcaption{font-size:10px;padding:28px 15px 14px}
+ .value-chapters{grid-template-columns:1fr 1fr;padding-block:18px;gap:16px}.value-chapters a{font-size:11px;gap:10px}.value-chapters a>span{font-size:15px}
+ .value-life{padding-block:58px 37px}.value-life-layout{grid-template-columns:1fr;gap:25px}.value-life-layout>div>p,.value-life-layout .value-life-end{font-size:14px}.value-knowledge{padding-bottom:55px}.value-knowledge-inner{grid-template-columns:1fr;gap:20px;padding-top:27px}.value-knowledge h3{font-size:25px}.value-knowledge p{font-size:14px}
+ .value-making{padding:55px 0 45px}.value-making-layout{grid-template-columns:1fr;gap:33px}.value-making-intro{font-size:14px}.value-steps li{gap:18px;padding:24px 0}.value-steps h3{font-size:20px}.value-steps p{font-size:13px}.value-material{grid-template-columns:1fr;gap:22px;margin-top:16px;padding-top:25px}.value-material figure{width:100%;max-width:320px;margin-inline:auto}.value-material img{width:100%;height:auto;aspect-ratio:1122/1402;object-fit:contain}.value-material>p{font-size:20px}.value-material figcaption{font-size:10px}
+ .value-roots{grid-template-columns:1fr;gap:28px;padding-block:58px}.value-root-mark{font-size:76px;justify-content:flex-start;gap:15px}.value-roots-copy>p:not(.eyebrow){font-size:14px}.value-at-home{padding-block:50px}.value-at-home-layout{grid-template-columns:1fr;gap:30px}.value-at-home-layout>div>p:not(.eyebrow){font-size:14px}.value-heirloom{padding-block:60px}.value-heirloom>p:not(.eyebrow){font-size:14px}.value-heirloom .value-heirloom-end{font-size:20px}
+ .value-begin{padding-block:55px 30px}.value-begin-layout{grid-template-columns:1fr;gap:32px}.value-offer{border-left:0;border-top:1px solid #d0ac713f;padding:27px 0 0}.value-begin-intro{font-size:14px}.value-contact{width:100%;font-size:13px}.value-choose-links{grid-template-columns:1fr;gap:0;margin-top:32px}.value-choose-links a{font-size:13px;padding:18px 0}
+ .value-page:lang(en) .value-main h1{font-size:46px;line-height:1.15}.value-page:lang(en) .value-main h2{font-size:40px}.value-page:lang(en) .value-main h3{font-size:27px}.value-page:lang(zh) .value-main h1{font-size:37px}.value-page:lang(zh) .value-main h2{font-size:31px}
+ .value-product{margin-top:23px}.value-product-body{font-size:13px}
+}
+
+/* Teacher-specific context and an invitation to enquire; no price display. */
+.value-practice-links{display:flex;flex-wrap:wrap;gap:12px 25px;margin-top:27px;padding-top:20px;border-top:1px solid #ddd0bd;font-size:12px;color:#8b7354}
+.value-practice-links a{text-decoration:underline;text-underline-offset:5px}
+.value-enquiry-title{font:400 27px/1.6 var(--heading);color:#e4d0af;margin:0 0 18px}
+.value-enquiry-intro{font-size:14px;line-height:2;color:#dbcbd1;margin:0 0 25px}
+@media(max-width:760px){.value-enquiry-title{font-size:24px}.value-practice-links{font-size:12px;gap:15px}.value-enquiry-intro{font-size:14px}}

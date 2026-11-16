@@ -1,0 +1,12 @@
+/* This discourages direct saving; it is not copy protection or DRM. */
+img,
+picture,
+video {
+  -webkit-touch-callout: none;
+}
+img,
+picture {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
